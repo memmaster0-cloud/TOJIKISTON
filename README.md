@@ -29,7 +29,7 @@ docker run -p 5000:5000 todo-api
 Или готовый образ с Docker Hub (после публикации через CI):
 
 ```bash
-docker run -p 5000:5000 USERNAME/todo-api:latest
+docker run -p 5000:5000 memmaster0-cloud/todo-api:latest
 ```
 
 Приложение будет доступно на `http://localhost:5000`.
@@ -71,7 +71,7 @@ pytest --cov=app --cov-report=term tests/
 ## Docker Hub
 
 Образ публикуется автоматически при пуше в `main`:
-`https://hub.docker.com/r/USERNAME/todo-api`
+`https://hub.docker.com/r/memmaster0-cloud/todo-api`
 
 ## CI/CD
 
